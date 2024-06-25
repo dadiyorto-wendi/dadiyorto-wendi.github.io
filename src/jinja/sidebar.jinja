@@ -1,77 +1,55 @@
 <!-- sidebar.jinja -->
 <aside class="sidebar" data-sidebar>
-
   <div class="sidebar-info">
-
     <figure class="avatar-box">
       <img src="{{about.avatar}}" alt="{{about.name}}" width="80">
     </figure>
-
     <div class="info-content">
       <h1 class="name" title="{{about.name}}">{{about.name}}</h1>
-
-      <p class="title">{{about.rol}}</p>
+      <!-- Displaying multiple roles -->
+      <ul class="roles-list">
+        {% for role in about.roles %}
+          <li class="title">{{ role }}</li>
+        {% endfor %}
+      </ul>
     </div>
-
     <button class="info_more-btn" data-sidebar-btn>
       <span>Show Contacts</span>
-
       <ion-icon name="chevron-down"></ion-icon>
     </button>
-
   </div>
 
   <div class="sidebar-info_more">
-
     <div class="separator"></div>
-
     <ul class="contacts-list">
-
       <li class="contact-item">
-
         <div class="icon-box">
           <ion-icon name="mail-outline"></ion-icon>
         </div>
-
         <div class="contact-info">
           <p class="contact-title">Email</p>
-
-          <a href="#" class="contact-link">{{about.email}}</a>
+          <a href="mailto:{{about.email}}" class="contact-link">{{about.email}}</a>
         </div>
-
       </li>
-
-
       <li class="contact-item">
-
         <div class="icon-box">
           <ion-icon name="location-outline"></ion-icon>
         </div>
-
         <div class="contact-info">
           <p class="contact-title">Location</p>
-
           <address>{{about.location}}</address>
         </div>
-
       </li>
-
     </ul>
-
     <div class="separator"></div>
-
     <ul class="social-list">
-
       {% for red, url in social.items() %}
       <li class="social-item">
-        <a href="{{url}}" class="social-link" , target="_blank">
+        <a href="{{url}}" class="social-link" target="_blank">
           <ion-icon name="{{red}}"></ion-icon>
         </a>
       </li>
       {% endfor %}
-
     </ul>
-
   </div>
-
 </aside>
