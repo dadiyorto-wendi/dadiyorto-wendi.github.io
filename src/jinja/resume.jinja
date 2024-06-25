@@ -6,67 +6,43 @@
   </header>
 
   <section class="timeline">
-
+    <!-- For Education -->
     <div class="title-wrapper">
       <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
+        <ion-icon name="school-outline"></ion-icon>
       </div>
-
       <h3 class="h3">Education</h3>
     </div>
-
     <ol class="timeline-list">
-
       {% for education in resume.education | reverse %}
-
       <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">{{education.title}}</h4>
-
-        <span>{{education.timeline}}</span>
-
-        <p class="timeline-text">
-          {{education.description}}
-        </p>
-
+        <h4 class="h4 timeline-item-title">{{ education.title }}</h4>
+        <span>{{ education.timeline }}</span>
+        <p class="timeline-item-where">{{ education.where }}</p>  <!-- New field -->
+        <p class="timeline-text">{{ education.description }}</p>
       </li>
-
       {% endfor %}
-
     </ol>
-
   </section>
 
   <section class="timeline">
-
+    <!-- For Experience -->
     <div class="title-wrapper">
       <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
+        <ion-icon name="briefcase-outline"></ion-icon>
       </div>
-
       <h3 class="h3">Experience</h3>
     </div>
-
     <ol class="timeline-list">
-
       {% for experience in resume.experience | reverse %}
-
       <li class="timeline-item">
-
-        <h4 class="h4 timeline-item-title">{{experience.title}}</h4>
-
-        <span>{{experience.timeline}}</span>
-
-        <p class="timeline-text">
-          {{experience.description}}
-        </p>
-
+        <h4 class="h4 timeline-item-title">{{ experience.title }}</h4>
+        <span>{{ experience.timeline }}</span>
+        <p class="timeline-item-where">{{ experience.where }}</p>  <!-- New field -->
+        <p class="timeline-text">{{ experience.description }}</p>
       </li>
-
       {% endfor %}
-
     </ol>
-
   </section>
 
   <!-- Languages -->
