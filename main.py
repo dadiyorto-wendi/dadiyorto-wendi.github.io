@@ -36,7 +36,11 @@ class Portfolio:
         return formatted_date
 
     def about(self):
-        return self.load_toml_file(self.about_toml)
+        about_data = self.load_toml_file(self.about_toml)
+        # Check for roles key and set a default if not present
+        if 'roles' not in about_data:
+            about_data['roles'] = ['Default Role']  # Provide a default or handle the absence as needed
+        return about_data
 
     def social(self):
         return self.load_toml_file(self.social_toml)
