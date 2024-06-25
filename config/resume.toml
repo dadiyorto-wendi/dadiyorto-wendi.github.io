@@ -1,14 +1,14 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "University of Potsdam"
-timeline = "2015 — 2018"
-description = "PhD in Hydrology - Magna Cum Laude"
+title = "Test University"
+timeline = "2020 — 2024"
+description = "Test Description"
 
 [[education]]
-title = "University of Nice, France; Newcastle University, UK; UPC - Polytechnic University of Catalonia, Spain"
-timeline = "2009 — 2011"
-description = "European Joint MSc. in Hydro-informatics and Water Management (EUROAQUAE)"
+title = "Test University"
+timeline = "2020 — 2024"
+description = "Test Description"
 
 
 ############## Experience config ################
