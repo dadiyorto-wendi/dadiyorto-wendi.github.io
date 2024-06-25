@@ -1,19 +1,14 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "High school of art and design"
-timeline = "2002 — 2004"
-description = "Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos."
+title = "University of Potsdam, Germany"
+timeline = "Oct 2015 —  Sep 2018"
+description = "PhD in Hydrology - Magna Cum Laude"
 
 [[education]]
-title = "New york academy of art"
-timeline = "2006 — 2007"
-description = "Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis.."
-
-[[education]]
-title = "University school of the arts"
-timeline = "2007 — 2008"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
+title = "University of Nice, France | Newcastle University, UK | UPC - Polytechnic University of Catalonia, Spain"
+timeline = "2009 — 2011"
+description = "European Joint MSc. in Hydro-informatics and Water Management (EUROAQUAE)"
 
 
 ############## Experience config ################
