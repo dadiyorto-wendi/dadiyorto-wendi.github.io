@@ -1,32 +1,19 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "Test University"
-timeline = "2020 — 2024"
-description = "Test Description"
-
-[[education]]
-title = "Test University"
-timeline = "2020 — 2024"
-description = "Test Description"
+title = "B.Sc. Computer Science"
+timeline = "2006 — 2010"
+description = "Studied computer science fundamentals."
+where = "University of ABC, Boston"
 
 
 ############## Experience config ################
 #################################################
 [[experience]]
-title = "Web designer"
+title = "Web Designer"
 timeline = "2010 — 2013"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-
-[[experience]]
-title = "Art director"
-timeline = "2013 — 2015"
-description = "Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur."
-
-[[experience]]
-title = "Creative director"
-timeline = "2015 — Present"
-description = "Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur."
+description = "What did I do"
+where = "Company XYZ, New York"
 
 
 ############## Skills config ####################
