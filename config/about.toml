@@ -1,5 +1,5 @@
 name = "Dadiyorto Wendi"
-rol = "Climate Risk & Opportunity"
+rol = "Climate Risk & Opportunity", "Water & Environment", "Big Data Intelligence"]
 email = "dadiyorto[at]outlook.com"
 location = "Berlin, Germany"
 avatar = "./config/assets/avatars/Dadiyorto_Wendi_profile.png"
