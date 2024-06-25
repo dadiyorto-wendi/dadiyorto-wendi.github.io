@@ -1,12 +1,12 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "University of Potsdam, Germany"
+title = "University of Potsdam"
 timeline = "2015 — 2018"
 description = "PhD in Hydrology - Magna Cum Laude"
 
 [[education]]
-title = "University of Nice, France | Newcastle University, UK | UPC - Polytechnic University of Catalonia, Spain"
+title = "University of Nice, France; Newcastle University, UK; UPC - Polytechnic University of Catalonia, Spain"
 timeline = "2009 — 2011"
 description = "European Joint MSc. in Hydro-informatics and Water Management (EUROAQUAE)"
 
