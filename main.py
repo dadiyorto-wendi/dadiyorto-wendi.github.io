@@ -37,10 +37,11 @@ class Portfolio:
 
     def about(self):
         about_data = self.load_toml_file(self.about_toml)
-        # Check for roles key and set a default if not present
-        if 'roles' not in about_data:
-            about_data['roles'] = ['Default Role']  # Provide a default or handle the absence as needed
+        # Ensure there is a roles key and it contains a list, otherwise set a default list
+        if 'roles' not in about_data or not isinstance(about_data['roles'], list):
+            about_data['roles'] = ['Default Role']
         return about_data
+
 
     def social(self):
         return self.load_toml_file(self.social_toml)
