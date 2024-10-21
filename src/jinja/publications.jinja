@@ -1,36 +1,36 @@
-<!-- blog.jinja -->
-<article class="blog" data-page="blog">
+<!-- publications.jinja -->
+<article class="publications" data-page="publications">
 
   <header>
-    <h2 class="h2 article-title">Blog</h2>
+    <h2 class="h2 article-title">publications</h2>
   </header>
 
-  <section class="blog-posts">
+  <section class="publications-posts">
 
-    <ul class="blog-posts-list">
+    <ul class="publications-posts-list">
 
-      {% for post in blog.post %}
+      {% for post in publications.post %}
 
-      <li class="blog-post-item">
+      <li class="publications-post-item">
         <a href="{{post.url}}" target="_blank">
 
-          <figure class="blog-banner-box">
+          <figure class="publications-banner-box">
             <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
           </figure>
 
-          <div class="blog-content">
+          <div class="publications-content">
 
-            <div class="blog-meta">
-              <p class="blog-category">{{post.category}}</p>
+            <div class="publications-meta">
+              <p class="publications-category">{{post.category}}</p>
 
               <span class="dot"></span>
 
               <time datetime="{{post.datetime}}">{{post.datetime | format_date}}</time>
             </div>
 
-            <h3 class="h3 blog-item-title">{{post.title}}</h3>
+            <h3 class="h3 publications-item-title">{{post.title}}</h3>
 
-            <p class="blog-text">
+            <p class="publications-text">
               {{post.subtitle}}
             </p>
 
