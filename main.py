@@ -13,7 +13,7 @@ class Portfolio:
         self.technologies_toml = "config/technologies.toml"
         self.resume_toml = "config/resume.toml"
         self.projects_toml = "config/projects.toml"
-        self.blog_toml = "config/blog.toml"
+        self.publications_toml = "config/publications.toml"
 
     def read_file(self, file_path):
         with open(file_path, "r", encoding="utf-8") as file:
@@ -63,8 +63,8 @@ class Portfolio:
     def projects(self):
         return self.load_toml_file(self.projects_toml)
 
-    def blog(self):
-        return self.load_toml_file(self.blog_toml)
+    def publications(self):
+        return self.load_toml_file(self.publications_toml)
 
     def categories(self):
         filters = []
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     technologies = portfolio.technologies()
     resume = portfolio.resume()
     projects = portfolio.projects()
-    blog = portfolio.blog()
+    publications = portfolio.publications()
     categories = portfolio.categories()
 
     env = Environment(loader=FileSystemLoader("src/jinja"))
@@ -99,7 +99,7 @@ if __name__ == "__main__":
         technologies=technologies,
         resume=resume,
         projects=projects,
-        blog=blog,
+        publications=publications,
         categories=categories,
     )
 
