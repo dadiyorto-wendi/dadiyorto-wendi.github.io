@@ -168,7 +168,8 @@ body { background: hsl(0, 0%, 90%); }
 .sidebar,
 article {
   background: var(--eerie-black-2);
-  /*background: hsl(240, 2%, 60%); /* Lighter shade */
+  /*background: hsl(240, 2%, 60%);*/
+	/* Lighter shade */
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
