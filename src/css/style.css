@@ -59,7 +59,7 @@
   --jet: hsl(0, 0%, 22%);
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
+  --eerie-black-2: hsl(240, 3%, 30%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
@@ -167,8 +167,7 @@ body { background: hsl(0, 0%, 90%); }
 
 .sidebar,
 article {
-  background: hsl(240, 3%, 30%);
-  /*background: var(--eerie-black-2);
+  background: var(--eerie-black-2);
   /*background: hsl(240, 2%, 60%); /* Lighter shade */
   border: 1px solid var(--jet);
   border-radius: 20px;
