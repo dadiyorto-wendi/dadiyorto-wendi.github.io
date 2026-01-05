@@ -1,26 +1,26 @@
 ############### Section config ##################
 #################################################
-title = "Soft Skills"
+title = "Key Strengths"
 enabled = true # false
 
 ################ Skills #########################
 #################################################
 [[skills]]
-title = "Fast Learner"
-icon = "./config/assets/icons/bolt.svg"
-text = "I have the ability to quickly acquire new knowledge and adapt to changing technological environments."
-
-[[skills]]
-title = "Teamwork"
-icon = "./config/assets/icons/user.svg"
-text = "I collaborate effectively in multidisciplinary projects and communicate clearly with team members."
-
-[[skills]]
-title = "Problem Solving"
+title = "Climate & Flood Risk Modelling"
 icon = "./config/assets/icons/gear.svg"
-text = "I am creative and efficient in identifying and solving technical problems."
+text = "Design climate and flood risk models linking historical data, scenarios, and actionable insights."
 
 [[skills]]
-title = "Effective Communication"
-icon = "./config/assets/icons/comment.svg"
-text = "I have the skill to convey ideas clearly and concisely, both technically and non-technically."
+title = "Geospatial Data Science"
+icon = "./config/assets/icons/compass.svg"
+text = "Deliver geospatial analyses, mapping, and risk overlays for data-driven decisions."
+
+[[skills]]
+title = "Hydrology & Water Resources"
+icon = "./config/assets/icons/mobile.svg"
+text = "Lead hydrological studies on water resources, flood hydrology, and coastal impacts."
+
+[[skills]]
+title = "Project & Product Leadership"
+icon = "./config/assets/icons/team.svg"
+text = "Manage interdisciplinary teams and coordinate stakeholders to deliver climate resilience products."

@@ -1,44 +1,146 @@
 ############## Education config #################
 #################################################
 [[education]]
-title = "B.Sc. Computer Science"
-timeline = "2006 — 2010"
-description = "Studied computer science fundamentals."
-where = "University of ABC, Boston"
+title = "B.Eng. Civil Engineering (Exchange)"
+timeline = "Mar 2009 — Mar 2010"
+where = "Grenoble INP - INPG, Grenoble, France"
+description = "Engineering exchange program focused on hydrology, hydraulics, and modelling."
 
+[[education]]
+title = "B.Eng. Civil Engineering"
+timeline = "2010 — 2012"
+where = "National University of Singapore"
+description = "Civil engineering degree specializing in hydrology and hydraulics."
+
+[[education]]
+title = "Erasmus Mundus MSc in Hydrology and Water Management (EUROAQUAE)"
+timeline = "Sep 2012 — 2014"
+where = "University of Nice Sophia Antipolis, France"
+description = "Joint MSc with emphasis on hydro-informatics, water management, and coastal systems."
+
+[[education]]
+title = "Erasmus Mundus MSc in Hydrology and Water Management (EUROAQUAE)"
+timeline = "Sep 2012 — 2014"
+where = "University of Potsdam, Potsdam, Germany"
+description = "Advanced training in flood modelling and coupled hydrological systems."
+
+[[education]]
+title = "Engineering PhD in Hydrology"
+timeline = "Sep 2015 — Sep 2018"
+where = "University of Potsdam, Potsdam, Germany"
+description = "Doctoral research in hydrological modelling and flood risk dynamics."
 
 ############## Experience config ################
 #################################################
 [[experience]]
-title = "Web Designer"
-timeline = "2010 — 2013"
-description = "What did I do"
-where = "Company XYZ, New York"
+title = "Research Engineer"
+timeline = "2013 — Jan 2015"
+where = "National University of Singapore, Singapore"
+description = "Performed coastal hydrodynamic simulations and GIS-based flood exposure analyses across Southeast Asia."
 
+[[experience]]
+title = "Research Associate"
+timeline = "2013 — Jan 2015"
+where = "Earth Observatory of Singapore, Singapore"
+description = "Identified vulnerabilities and potential hydrological impacts from natural hazards across Indonesia."
+
+[[experience]]
+title = "Scientific Assistant"
+timeline = "Sep 2015 — Aug 2016"
+where = "University of Potsdam, Potsdam, Germany"
+description = "Developed vulnerability datasets for flood modelling within coupled data workflows."
+
+[[experience]]
+title = "Research Scientist"
+timeline = "Mar 2016 — Oct 2016"
+where = "Deltares, Singapore"
+description = "Analyzed cropland flood exposure in Indonesia to improve regional disaster resilience insights."
+
+[[experience]]
+title = "Scientific Officer"
+timeline = "Aug 2017 — Sep 2017"
+where = "Singapore-ETH Centre, Singapore"
+description = "Led maritime study on sea-level rise, flooding, and coastal impacts for Singapore."
+
+[[experience]]
+title = "Scientist"
+timeline = "Aug 2019 — Aug 2021"
+where = "Helmholtz Centre Potsdam GFZ, Germany"
+description = "Advanced risk modeling for disaster analysis with real-time risk and loss calculations."
+
+[[experience]]
+title = "Lead Climate Data Scientist"
+timeline = "Sep 2021 — Jul 2022"
+where = "Climate Risk Services, Germany"
+description = "Developed climate and flood risk models, supervised operations, and drove product development."
+
+[[experience]]
+title = "Cofounder & CSO/CTO"
+timeline = "Aug 2022 — Present"
+where = "Sunjul GmbH (DE & UK), Germany"
+description = "Co-founded a climate risk and solar energy startup building SaaS products for climate-smart solar PV analytics and action support."
+
+[[experience]]
+title = "Consultant"
+timeline = "Sep 2022"
+where = "Reos Partners, Singapore"
+description = "Mapped Singapore's climate tech and entrepreneurship ecosystem to highlight opportunities for founders."
+
+[[experience]]
+title = "Consultant"
+timeline = "Nov 2022"
+where = "Asia Group Advisors (AGA), Singapore"
+description = "Assessed climate risk, flood vulnerability, and protective infrastructure across Indonesian provinces."
+
+[[experience]]
+title = "Consultant"
+timeline = "2016"
+where = "Centre for International Law, National University of Singapore"
+description = "Co-authored the national assessment of Singapore's sea-level rise and flood hazards (Singapore Vulnerability Study II)."
+
+[[experience]]
+title = "Consultant"
+timeline = "2015 — 2016"
+where = "Tropical Marine Science Institute (TMSI), National University of Singapore"
+description = "Reviewed hydrology and flood hazard and risk technical report for Tropical Storm Vamei mitigation."
+
+[[experience]]
+title = "Consultant"
+timeline = "2014 — 2016"
+where = "European Joint Master in Water and Coastal Management"
+description = "Delivered curriculum on hydrological and flood modelling for postgraduate cohorts."
 
 ############## Skills config ####################
 #################################################
-[skills] 
-title = "My Skills"
+[skills]
+title = "Key Skills"
 enabled = true
 show_bar = true
 show_value = true
 
 [[skill]]
-title = "Web design"
-value = "80%"
+title = "Climate & Flood Risk Modelling"
+value = "95%"
 
 [[skill]]
-title = "Graphic design"
-value = "70%"
-
-[[skill]]
-title = "Branding"
+title = "Geospatial Data Science"
 value = "90%"
 
 [[skill]]
-title = "WordPress"
-value = "50%"
+title = "Hydrology & Water Resources"
+value = "95%"
+
+[[skill]]
+title = "Statistics & Data Visualization"
+value = "85%"
+
+[[skill]]
+title = "Big Data, AI & ML"
+value = "85%"
+
+[[skill]]
+title = "Project Management"
+value = "80%"
 
 ############## Language config ##################
 #################################################
@@ -49,9 +151,13 @@ show_bar = true
 show_value = true
 
 [[language]]
-title = "Ingles"
-value = "60%"
+title = "English"
+value = "100%"
 
 [[language]]
-title = "French"
+title = "Indonesian / Malay"
+value = "100%"
+
+[[language]]
+title = "Mandarin (spoken)"
 value = "50%"
